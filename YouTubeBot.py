@@ -2,9 +2,9 @@ from selenium import webdriver
 import time
 
 
-number_of_drivers = int(input("Enter the number of drivers : " ))
-time_to_refresh = int(input("Enter refresh rate time in seconds : " ))
-url = input("Enter URL : " )
+number_of_drivers = int(input("10 : " ))
+time_to_refresh = int(input("1 : " ))
+url = input("Enter URL : https://m.youtube.com/@copane_azus4521" )
 drivers =[]
 
 for i in range(number_of_drivers):
